@@ -33,9 +33,7 @@ dependencies:
   shared_preferences: ^2.2.2
   
   # Location & Prayer Times
-  adhan:
-    git:
-      url: https://github.com/batoulapps/adhan-dart.git
+  adhan: ^2.0.1
   geolocator: ^10.1.0
   flutter_qiblah: ^2.0.0
   permission_handler: ^11.3.0
