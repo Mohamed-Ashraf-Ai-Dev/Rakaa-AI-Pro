@@ -1,4 +1,4 @@
-name: rakaa_ai
+Name: rakaa_ai
 description: Rakaa AI - Advanced Islamic Prayer Assistant by Mohamed Ashraf.
 version: 1.0.0+1
 
@@ -35,7 +35,7 @@ dependencies:
   # Location & Prayer Times
   adhan: ^2.1.0
   geolocator: ^10.1.0
-  flutter_qibla: ^2.0.0
+  flutter_qiblah: ^2.0.0
   permission_handler: ^11.3.0
   
   # Utils
