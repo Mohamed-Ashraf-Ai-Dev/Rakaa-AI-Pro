@@ -1,0 +1,77 @@
+name: rakaa_ai
+description: Rakaa AI - Advanced Islamic Prayer Assistant by Mohamed Ashraf.
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  
+  # State Management
+  flutter_riverpod: ^2.4.9
+  riverpod_annotation: ^2.3.3
+  
+  # UI & Animations
+  google_fonts: ^6.1.0
+  flutter_animate: ^4.2.0
+  lottie: ^2.7.0
+  flutter_svg: ^2.0.9
+  shimmer: ^3.0.0
+  
+  # Sensors & AI
+  sensors_plus: ^4.0.2
+  tflite_flutter: ^0.10.0
+  
+  # Database & Storage
+  isar: ^3.1.0+1
+  isar_flutter_libs: ^3.1.0+1
+  path_provider: ^2.1.1
+  shared_preferences: ^2.2.2
+  
+  # Location & Prayer Times
+  adhan: ^2.1.0
+  geolocator: ^10.1.0
+  flutter_qibla: ^2.0.0
+  permission_handler: ^11.3.0
+  
+  # Utils
+  intl: ^0.19.0
+  logger: ^2.0.2
+  dartz: ^0.10.1
+  equatable: ^2.0.5
+  url_launcher: ^6.2.5
+  share_plus: ^7.2.2
+  font_awesome_flutter: ^10.6.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  build_runner: ^2.4.7
+  isar_generator: ^3.1.0+1
+  riverpod_generator: ^2.3.9
+  flutter_launcher_icons: ^0.13.1
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  image_path: "assets/icons/app_icon.png"
+  adaptive_icon_background: "#0C3327"
+  adaptive_icon_foreground: "assets/icons/app_icon.png"
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/icons/
+    - assets/models/
+    - assets/lottie/
+  fonts:
+    - family: Amiri
+      fonts:
+        - asset: assets/fonts/Amiri-Regular.ttf
+        - asset: assets/fonts/Amiri-Bold.ttf
+          weight: 700
