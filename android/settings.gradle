@@ -9,10 +9,6 @@ pluginManagement {
         if (path == null) {
             path = System.getenv("FLUTTER_ROOT")
         }
-        // Fallback for CI environments
-        if (path == null) {
-            path = "/opt/hostedtoolcache/flutter/stable-3.19.0-x64/flutter"
-        }
         if (path == null) {
             throw new GradleException("Flutter SDK not found. Define flutter.sdk in local.properties or set FLUTTER_ROOT environment variable.")
         }
